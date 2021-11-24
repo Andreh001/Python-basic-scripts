@@ -1,0 +1,26 @@
+print()
+print(" ███╗   ██╗       ███╗   ███╗ █████╗ ██╗   ██╗ ██████╗ ██████╗ ")
+print(" ████╗  ██║       ████╗ ████║██╔══██╗╚██╗ ██╔╝██╔═══██╗██╔══██╗")
+print(" ██╔██╗ ██║       ██╔████╔██║███████║ ╚████╔╝ ██║   ██║██████╔╝")
+print(" ██║╚██╗██║       ██║╚██╔╝██║██╔══██║  ╚██╔╝  ██║   ██║██╔══██╗")
+print(" ██║ ╚████║██╗    ██║ ╚═╝ ██║██║  ██║   ██║   ╚██████╔╝██║  ██║")
+print(" ╚═╝  ╚═══╝╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝")
+print()
+num1 = int(input("Ingrese el número 1: "))
+num2 = int(input("Ingrese el número 2: "))
+print()
+while num1 == num2:
+    print("No puede ingresar los mismos números.")
+    print()
+    num1 = int(input("Ingrese el número 1: "))
+    num2 = int(input("Ingrese el número 2: "))
+    print()
+else:
+    if num1 > num2:
+        print("El número " + str(num1) + " es mayor.")
+        print()
+        input("Presione la tecla Enter para salir.")
+    else:
+        print("El número " + str(num2) + " es mayor.")
+        print()
+        input("Presione la tecla Enter para salir.")

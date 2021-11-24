@@ -1,0 +1,21 @@
+print()
+print(" ██████╗ ██╗ █████╗ ███████╗     █████╗     ███████╗███████╗███╗   ███╗ █████╗ ███╗   ██╗ █████╗ ███████╗")
+print(" ██╔══██╗██║██╔══██╗██╔════╝    ██╔══██╗    ██╔════╝██╔════╝████╗ ████║██╔══██╗████╗  ██║██╔══██╗██╔════╝")
+print(" ██║  ██║██║███████║███████╗    ███████║    ███████╗█████╗  ██╔████╔██║███████║██╔██╗ ██║███████║███████╗")
+print(" ██║  ██║██║██╔══██║╚════██║    ██╔══██║    ╚════██║██╔══╝  ██║╚██╔╝██║██╔══██║██║╚██╗██║██╔══██║╚════██║")
+print(" ██████╔╝██║██║  ██║███████║    ██║  ██║    ███████║███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║██║  ██║███████║")
+print(" ╚═════╝ ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝    ╚══════╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝")
+print()
+cantdias = int(input("Ingrese la cantidad de días: "))
+print()
+while cantdias < 0:
+    print("¿Qué intentas hacer?")
+    print()
+    cantdias = int(input("Ingrese una cantidad de días mayor a 1: "))
+    print()
+else:
+    cantsemanas = cantdias // 7
+    restacantdias = cantdias - (cantsemanas * 7)
+    print(str(cantdias) + " días son " + str(cantsemanas) + " semana(s) con " + str(restacantdias) + " día(s).")
+    print()
+    exit(input("Presione la tecla Enter para salir."))
