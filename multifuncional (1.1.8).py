@@ -34,7 +34,7 @@ ciudades = ["Santiago"] # MODIFICAR SOLO SI SABES LO QUE HACES
 Discord = "Andreh001#5074" # NO MODIFICAR
 Telegram = "@Andreh001" # NO MODIFICAR
 Email = "daee@siglo.host" # NO MODIFICAR
-Autor = "Diego Elos Espinoza" # NO MODIFICAR
+Autor = "DAEE" # NO MODIFICAR
 
 #---------------------------#
 #                           #
@@ -42,7 +42,7 @@ Autor = "Diego Elos Espinoza" # NO MODIFICAR
 #                           #
 #---------------------------#   
 if platform == "win32":       
-    if Discord == "Andreh001#5074" and Telegram == "@Andreh001" and Email == "daee@siglo.host" and Autor == "Diego Elos Espinoza": # NO MODIFICAR, MEREZCO CREDITOS POR EL TRABAJO, ¿NO?
+    if Discord == "Andreh001#5074" and Telegram == "@Andreh001" and Email == "daee@siglo.host" and Autor == "DAEE": # NO MODIFICAR, MEREZCO CREDITOS POR EL TRABAJO, ¿NO?
         #                           #
         #           START           #
         #                           #      
